@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 import Login from './views/Login/Login'
+import Home from './views/Home/Home'
 import './index.scss'
 
 const router = createBrowserRouter([
@@ -9,6 +10,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <Login />,
   },
+  {
+    path: "/home",
+    element: <Home />
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
