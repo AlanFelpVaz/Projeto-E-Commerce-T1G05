@@ -1,0 +1,40 @@
+main{
+    background-color: #2D2D2D;
+    width: 100%;
+}
+.card{
+    margin: 25px;
+    width: 330px;
+    height: 337px;
+    background-color: #ffff;
+    border-radius: 10px;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.grid{
+    margin-left: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.card:hover{
+    border: 1px solid #fff ;
+    cursor: pointer;
+}
+
+button {
+    background-color: #0C70F2;
+    width: 128px;
+    color: #fff;
+    padding: 7px;
+    margin-top: 3px;
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    border: 2px solid #0C70F2;
+    font-weight: 600;
+}

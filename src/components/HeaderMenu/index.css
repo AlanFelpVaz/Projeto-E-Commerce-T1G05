@@ -1,0 +1,58 @@
+:root{
+--backg--color:#2D2D2D;
+--write--color:#FFFFFF;
+--DNC--color:#0C70F2;
+font-family:'Raleway', sans-serif;
+}
+body{
+    width:100%;
+}
+
+.header_menu{
+    background-color:var(--backg--color);
+    color:var(--write--color) ; 
+}
+
+input{
+    width: 60rem;
+    height: 3rem;
+    margin-top: 10px;
+    margin-left: 2rem;
+    padding-left: 50px;
+    border: none;
+    background-color:var(--write--color) ;
+    color: rgba(0, 0, 0, 0.4);
+    top: 40px;
+    border-radius: 10px;
+    font-family:'Raleway', sans-serif;
+}
+input[type="text"]{
+    padding-left: 35px;
+    background-image: url("../../assets/busca.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.imagem_logo{
+    height: 81px;
+    width: 165px;
+    left: 56px;
+    top: 27px;
+    margin-left: 10px;
+}
+.menu_superior{
+    display: flex;
+    justify-content: space-between;
+}
+.menu_inferior{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    display: flex;
+    padding: 10px;
+    gap: 6rem;
+    list-style: none;
+}
+li:hover{
+    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: 900;
+}
